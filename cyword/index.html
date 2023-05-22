@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="https://kit.fontawesome.com/73397085f0.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+    <title>ToyProject</title>
+</head>
+<body>
+    <div class="background">
+        <div class="outerbox">
+            <div class="wrapper">
+                <div class="wrapper_left">
+                    <div class="wrapper_left_header">
+                        <div class="today">
+                            <span>TODAY</span>
+                            <span>0</span>
+                            <span> | TOTAL</span>
+                            <span>12345</span>
+                        </div>
+                    </div>
+                    <div class="wrapper_left_body">
+                        <div class="left_body_header">
+                         <div class="left_body_header_gray"></div>
+                         <div class="left_body_header_line"></div>
+                        </div>
+                        <div class="left_body_profile">
+                            <div class="profile_detail">
+                            <i class="fas fa-duotone fa-user"></i>
+                            이름
+                            </div>
+                            <div class="profile_detail">
+                            <i class="fas fa-duotone fa-phone"></i>
+                            전화번호
+                            </div>
+                            <div class="profile_detail">
+                            <i class="fas fa-duotone fa-envelope"></i>
+                            이메일
+                            </div>
+                            <div class="profile_detail">
+                            <i class="fas fa-brands fa-instagram"></i>
+                            인스타그램
+                            </div>
+                        </div>
+                        <div class="left_body_footer">
+                            <div class="feel">
+                                <div class="feel_title">오늘의 기분</div>
+                                <select class="feel_select">
+                                    <option>기쁨😆</option>
+                                    <option>슬픔😭</option>
+                                    <option>고민🤔</option>
+                                    <option>그냥그래😒</option>
+                                </select>
+                                </div>
+                          </div>
+                    </div>
+                  </div>
+                <div class="wrapper_right">
+                    <div class="wrapper_right_header">
+                        <div class="right_header_title">
+                            사이좋은 사람들, 싸이월드
+                        </div>
+                        <div class="right_header_setting">
+                            로그아웃
+                        </div>
+                    </div>
+                    <div class="wrapper_right_body">
+                        <iframe id="contentFrame" src="../cyword/home.html"></iframe>
+                    </div>
+                </div>
+                <div class="navigation">
+                    <div class="navigation_item" id="menuHome" onclick="menuHome()">home</div>
+                    <div class="navigation_item" id="menuMyPage" onclick="menuMyPage()">my page</div>
+                    <div class="navigation_item"id="menuGame" onclick="menuGame()">게임</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
