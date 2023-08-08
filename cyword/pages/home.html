@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>home</title>
+    <script src="https://kit.fontawesome.com/b52eb5ad9a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/todo.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+<div class="top_list">
+    <div class="profile_detail">
+        <div class="bucket_list">
+            BUCKET<br>LIST
+        </div>
+    </div>
+</div>
+        <div class="wrapper_bottom">
+                <!-- <div class="title">TODO LIST</div> -->
+                <header>Daily Todolist</header>
+                <div class="inputField">
+                    <input type="text" id="addValue" placeholder="list 추가" autofocus/>
+                    <button type="button" id="btn" onclick="addTodo()"><i class="fa-solid fa-square-plus fa-2x"></i></i></button>
+                    </div>
+                    <div>
+                        <ul id="addTodo" class="Todolist">
+                            <li>
+                                <div id="result"></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- <div class="footer">
+                        <button type="button" id="allClear" onclick="allClearList">모두 삭제</button>
+                    </div> -->
+                </div>
+                
+        </div>
+    <script src="todo.js"></script>
+</body>
+</html>

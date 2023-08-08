@@ -3,7 +3,9 @@ const loginPw = document.getElementById('LOGIN_PW');
 const loginBtn = document.getElementById('LOGIN_BTN');
 
 function color() {
-    if((loginId.value.length>0 && loginId.value.indexOf("@")!==-1) 
+    if ((loginId.value.length > 0
+        // && loginId.value.indexOf("@")
+        !== -1) 
         && loginPw.value.length>=5){
         loginBtn.disabled = false;
     }else{
